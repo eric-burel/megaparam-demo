@@ -3,9 +3,9 @@ import { ConfigForm } from "./config-form";
  * Run the server and open
  * http://localhost:3000/vn/examples/megaparam-demo
  */
-export const MegaparamDemo = ({
+export default function MegaparamDemo({
     params,
-}: { params: { M: string } }) => {
+}: { params: { M: string } }) {
     console.log("Statically rendering Megaparam demo, you should see this log only during build-time and server-side")
     const { theme, company } = decode(params)
     return (
@@ -83,5 +83,3 @@ export function generateStaticParams() {
 
 // less common combinations will be dynamically server-rendered
 export const dynamic = true
-
-export default MegaparamDemo;
