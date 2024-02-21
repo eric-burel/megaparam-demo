@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { encode } from "@/app/[M]/page";
+import { encode } from "./app/[M]/params";
 
 export function middleware(req: NextRequest) {
     // get the current params from the cookies, eg theme

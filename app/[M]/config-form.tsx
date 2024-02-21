@@ -1,7 +1,8 @@
 "use client"
 import { useRouter } from "next/navigation"
+import { PersonalizationParams } from "./params";
 
-export function ConfigForm({ theme, company }: { theme: string, company: string }) {
+export function ConfigForm({ theme, company }: PersonalizationParams) {
     const router = useRouter()
     return <form
         className="rounded border border-blue-900 p-8 my-4"
