@@ -19,7 +19,7 @@ export default function MegaparamDemo({
                 background: theme === "dark" ? "#363333" : "#ebefeb",
             }}
         >
-            <h1>Welcome back, user of company &quo;{company}!&quo;</h1>
+            <h1>Welcome back, user of company {company}</h1>
             <p>
                 This page demonstrate Megaparam, a pattern to statically render a
                 complex combination of parameters.
