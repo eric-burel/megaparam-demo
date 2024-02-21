@@ -57,4 +57,5 @@ export function generateStaticParams() {
 };
 
 // less common combinations will be dynamically server-rendered
-export const dynamic = true
+// https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config#dynamicparams
+export const dynamicParams = true
