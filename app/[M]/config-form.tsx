@@ -24,8 +24,8 @@ export function ConfigForm({ theme, company }: { theme: string, company: string 
         <div className="py-4">
             <label htmlFor="company">Pick a company</label>
             <select id="company" name="company" defaultValue={company}>
-                <option value="my_company">"my_company"</option>
-                <option value="my_other_company">"my_other_company"</option>
+                <option value="my_company">my_company</option>
+                <option value="my_other_company">my_other_company</option>
             </select>
         </div>
         <div className="py-4">
